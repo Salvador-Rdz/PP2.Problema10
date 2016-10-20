@@ -35,9 +35,9 @@ public class PP2Problema10 {
     }
     public static void solve (int n)
     {
-        int prevNumber=0; //Se crea un arreglo que guardara la serie.
+        System.out.print("0,");
         int a=1,b=1;            //Se inicia la serie con 1 y 1. Ya que así inicia la serie de fibonacci
-        for (int i=0;i<n;i++)   //Se repite el proceso el número de veces que pidio el usuario.
+        for (int i=1;i<n-1;i=i+2)   //Se repite el proceso el número de veces que pidio el usuario.
         {
             System.out.print(a+","+b+",");//Se imprime a y b.
             a=a+b;                //a se cambia a la suma de a+b
